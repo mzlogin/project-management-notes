@@ -75,15 +75,49 @@
 
 缩写：
 
-| 缩写 | 含义     | 全称                 |
-|------|----------|----------------------|
-| AC   | 实际成本 | Actual Cost          |
-| BAC  | 完工预算 | Budget At Completion |
-| CPI  |          |                      |
-| ETC  |          |                      |
-| EV   | 挣值     | Earned Value         |
-| PV   | 计划价值 | Planned Value        |
-| SPI  |          |                      |
+| 缩写 | 含义             | 全称                   |
+|------|------------------|------------------------|
+| AC   | 实际成本         | Actual Cost            |
+| BAC  | 完工预算         | Budget At Completion   |
+| CPI  | 成本绩效指数     |                        |
+| EAC  | 完工估算         | Estimate at Completion |
+| ETC  | 完工尚需估算     | Estimate to Completion |
+| EV   | 挣值             | Earned Value           |
+| PV   | 计划价值         | Planned Value          |
+| SPI  | 进度绩效指数     |                        |
+| TCPI | 完工尚需绩效指数 |                        |
+
+公式：
+
+- 成本偏差：CV = EV - AC
+
+- 成本绩效指数：CPI = EV / AC
+
+- 进度偏差：SV = EV - PV
+
+- 进度绩效指数：SPI = EV / PV
+
+- 完工尚需绩效指数：TCPI = (BAC - EV) / (BAC - AC)
+
+    代表要按预算完工，资金的使用效率要求。
+
+    若管理层认为 BAC 无法实现，则 TCPI = (BAC - EV) / (EAC - AC)
+
+- 完工估算：EAC = ETC + AC
+
+- 完工偏差：VAC = BAC - EAC
+
+- ETC
+
+    - 按预算完成剩余工作：ETC = BAC - EV
+
+    - 以当前 CPI 完成剩余工作：ETC = (BAC - EV) / CPI
+
+    - SPI 和 CPI 同时影响剩余工作：ETC = (BAC - EV) / (CPI * SPI)
+
+其它相关知识点：
+
+- 如果有管理储备，BAC = 总预算 - 管理储备
 
 ## 考试通关秘籍
 

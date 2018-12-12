@@ -11,7 +11,7 @@
 
 ## 好的实践
 
-1. 电话/实时语音/视频  文字
+1. **当面沟通** 优于 **电话/实时语音/视频** 优于 **文字**
 
 ## 经验教训
 
@@ -41,3 +41,6 @@
 
 ### Case 2
 
+当你有一个计划要与领导/客户/其它人商量时，会有各种际遇，我经常陷入路径一的怪圈，而路径五是我想要的。
+
+![I have a plan](https://raw.githubusercontent.com/mzlogin/drawio-files/master/output/i-have-a-plan.png)

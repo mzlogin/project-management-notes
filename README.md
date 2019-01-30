@@ -11,3 +11,5 @@
 * [个人时间管理](./personal-time-management.md)
 
 * [沟通](./communication.md)
+
+* [进度管理](./schedule-control.md)

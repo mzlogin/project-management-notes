@@ -4,6 +4,8 @@
 
 * [项目管理基础理论](./basic-theory.md)
 
+* [需求管理](./demand-management.md)
+
 * [制定开发计划](./development-plan.md)
 
 * [人员招募](./recruitment.md)

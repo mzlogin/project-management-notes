@@ -16,6 +16,8 @@
 
 * [进度管理](./schedule-control.md)
 
+* [目标管理](./goal-management.md)
+
 ## 实战 Q & A
 
 Q：如果一个项目没有指定项目经理，成功率高吗？
